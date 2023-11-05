@@ -40,6 +40,20 @@ var matrix_preload = return_matrices_folder(); //img preload folder, from matric
 /**********/
 /** MAIN **/
 /**********/
+
+var selectedDifficulty
+
+/// Difficulty Selection/Task
+var taskDifficulty = {
+	type: 'html-button-response',
+	stimulus: '<p>What difficulty would you like?</p>',
+	choices: ['Easy','Moderate', 'Hard'],
+	on_finish: function(data){
+		selectedDifficulty = jsPsych.data.get().last(1).values()[0].button_pressed;	
+		console.log(selectedDifficulty);		
+	}		
+};
+
 //Function to give the option for a local save of the data
 var localSave;
 
@@ -74,18 +88,22 @@ var goodbye = {
     choices: ['Exit']
     };
 
-timeline.push(matrices); //from matrices.js
+//timeline.push(taskDifficulty);
+//timeline.push(getMatrices(selectedDifficulty)); //from matrices.js
+timeline.push(getMatrices(0)); //from matrices.js
 timeline.push(save_data); //user option to save data     
 timeline.push(goodbye); //feedback
       
 
 //initialize the experiment
-     jsPsych.init({
+// jsPsych plugins require the timeline to be initialized.
+     jsPsych.init({ 
         timeline: timeline,
 		preload_images: matrix_preload,
 		on_finish: saveData
       });
-	  
+	
+// jsPsych.run(timeline)
 	  
     </script>
   </body>
