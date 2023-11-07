@@ -199,10 +199,15 @@ function getMatrices(difficulty){
 		console.log("Unknown difficulty")
 		return
 	}
-		
+ 
+	////// Need to implement sound for the duration of major mode and minor mode blocks.
+	/* 
+	var major = new Audio('major/A_Flat_Major.mp3');
+	major.play();
 
-
-	// Need to implement sound for the duration of major mode and minor mode blocks.
+	var minor = new Audio('minor/A_Minor_Melodic.mp3');
+	major.play();
+    */
 	// Need to implement counterbalancing design. 
 
 	let matrixList = block1.concat(block2).concat(block3)
@@ -220,7 +225,7 @@ function getMatrices(difficulty){
 	// "python -m http.server"
 	// run this in browser to view your experiment: http://localhost:8000/
 	// https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/set_up_a_local_testing_server
-
+    
 
 
 	/*var matrixList = [
@@ -370,6 +375,4 @@ function getMatrices(difficulty){
 	return {
 		timeline: [matrix_instructions, matrix_proc, matrix_goodbye]
 	}	
-
-
 }

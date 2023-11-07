@@ -1,0 +1,26 @@
+rt,stimulus,button_pressed,trial_type,trial_index,time_elapsed,internal_node_id,subject,item,correct_ans,designation,correct
+1344,"<p><b>Matrix Reasoning Task</b></p><p>This is a pattern completion task. You will be presented with patterns, one pattern at a time.<p>The lower-right piece of the pattern will be missing. Your job is to select the best option that completes the pattern.</p><p>You will have 60 minutes to complete as many patterns as you can.</p>",0,html-button-response,0,1344,0.0-0.0-0.0,kqj5srpg,,,,
+854,one/B1_1.png,3,ravens-matrix,1,2200,0.0-0.0-1.0-0.0,kqj5srpg,MAT-01,2,MATRIX-RESP,0
+161,one/D3_1.png,3,ravens-matrix,2,2624,0.0-0.0-1.0-0.1,kqj5srpg,MAT-03,6,MATRIX-RESP,0
+302,two/A1B2.png,3,ravens-matrix,3,3191,0.0-0.0-1.0-0.2,kqj5srpg,MAT-05,4,MATRIX-RESP,0
+182,two/A3D4.png,3,ravens-matrix,4,3624,0.0-0.0-1.0-0.3,kqj5srpg,MAT-07,1,MATRIX-RESP,0
+177,two/B5C1.png,3,ravens-matrix,5,4060,0.0-0.0-1.0-0.4,kqj5srpg,MAT-09,4,MATRIX-RESP,0
+190,two/B2E3.png,3,ravens-matrix,6,4516,0.0-0.0-1.0-0.5,kqj5srpg,MAT-11,7,MATRIX-RESP,0
+176,two/C4E5.png,3,ravens-matrix,7,4957,0.0-0.0-1.0-0.6,kqj5srpg,MAT-13,6,MATRIX-RESP,0
+332,logic/X_1.png,3,ravens-matrix,8,5556,0.0-0.0-1.0-0.7,kqj5srpg,MAT-15,4,MATRIX-RESP,0
+288,logic/Z_1.png,3,ravens-matrix,9,6096,0.0-0.0-1.0-0.8,kqj5srpg,MAT-17,6,MATRIX-RESP,0
+429,three/A2B4E1.png,3,ravens-matrix,10,6790,0.0-0.0-1.0-0.9,kqj5srpg,MAT-19,2,MATRIX-RESP,0
+553,three/A1D3E2.png,3,ravens-matrix,11,7611,0.0-0.0-1.0-0.10,kqj5srpg,MAT-21,0,MATRIX-RESP,0
+201,three/A3B4C1.png,3,ravens-matrix,12,8064,0.0-0.0-1.0-0.11,kqj5srpg,MAT-23,5,MATRIX-RESP,0
+303,three/A4B1D3.png,3,ravens-matrix,13,8623,0.0-0.0-1.0-0.12,kqj5srpg,MAT-25,0,MATRIX-RESP,0
+212,three/B5C3D1.png,3,ravens-matrix,14,9100,0.0-0.0-1.0-0.13,kqj5srpg,MAT-27,3,MATRIX-RESP,1
+229,three/A2B3E4.png,3,ravens-matrix,15,9590,0.0-0.0-1.0-0.14,kqj5srpg,MAT-29,1,MATRIX-RESP,0
+374,three/B2C4E3.png,3,ravens-matrix,16,10226,0.0-0.0-1.0-0.15,kqj5srpg,MAT-31,0,MATRIX-RESP,0
+205,three/A3B4C5_1.png,3,ravens-matrix,17,10688,0.0-0.0-1.0-0.16,kqj5srpg,MAT-33,0,MATRIX-RESP,0
+368,three/A4B3E5_1.png,3,ravens-matrix,18,11309,0.0-0.0-1.0-0.17,kqj5srpg,MAT-35,3,MATRIX-RESP,1
+177,three/A3C4E5_1.png,3,ravens-matrix,19,11750,0.0-0.0-1.0-0.18,kqj5srpg,MAT-37,2,MATRIX-RESP,0
+189,three/B3C4D5_1.png,3,ravens-matrix,20,12206,0.0-0.0-1.0-0.19,kqj5srpg,MAT-39,4,MATRIX-RESP,0
+197,three/B4D3E5_1.png,3,ravens-matrix,21,12669,0.0-0.0-1.0-0.20,kqj5srpg,MAT-41,7,MATRIX-RESP,0
+2695,<p>This concludes the pattern completion task.</p><p>Thank you for your responses!</p>,0,html-button-response,22,15625,0.0-0.0-2.0,kqj5srpg,,,,
+1361,<p>This concludes the task. Would you like to save the data?</p>,1,html-button-response,23,16987,0.0-1.0,kqj5srpg,,,,
+13633,<p>This concludes the task.</p><p>Thank you for your participation!</p><p><b>Total correct:</b> 2<br><p><b>Total matrices seen:</b> 21<br><p><b>Total matrices in the set:</b> 21<br>,0,html-button-response,24,30622,0.0-2.0,kqj5srpg,,,,
